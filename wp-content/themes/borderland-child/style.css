@@ -1,0 +1,33 @@
+/*
+Theme Name: Borderland Child
+Theme URI: http://demo.elated-themes.com/borderland
+Description: A child theme of Borderland Theme
+Author: Elated Themes
+Author URI: http://demo.elated-themes.com/
+Version: 1.0.0
+Template: borderland
+*/
+@import url("../borderland/style.css");
+
+@font-face {
+        font-family:  renault mn;
+        src: url(sansation_light.woff);
+     }
+.item_text {
+font-size: 12px;
+font-weight: bold;
+}
+
+header.centered_logo .eltd_logo img, header:not(.centered_logo) .eltd_logo img {
+    height: 100% !important;
+    
+   
+}
+.footer_bottom_holder {
+   background-repeat: no-repeat;
+    
+    background-position: center;  
+}
+.subtitle {
+color: red;
+}

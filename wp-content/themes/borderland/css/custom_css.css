@@ -1,0 +1,187 @@
+
+
+@font-face {
+    font-family: renault mn;
+    src: url(sansation_light.woff);
+}
+@media only screen and (min-width: 770px){
+    #firstName {
+        margin-left: 96px; 
+        padding-right: 102px;
+        width: 366px;
+    
+     }
+    #lastName {
+        position: absolute; 
+       
+        width: 371px; 
+        left: -535px;
+       
+    
+     }
+}
+
+.title h1 {
+    color: white;
+    font-family: 'renault mn';
+}
+
+.title h3 {
+    color: white;
+    font-family: Arial;
+}
+
+.subtitle {
+    margin-top: -17px;
+}
+
+body .mobile {
+    padding-top: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .title .manage {
+        margin-top: 9px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .wrapper p {
+        font-size: 15px;
+    }
+    body .mobile {
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+   .wrapper .eltd_icon_font_awesome {
+              font-size: 34px;
+}  
+  .wrapper .institute .vc_single_image-wrapper .vc_single_image-img {
+        margin-top: -70px;
+    }
+    .wrapper .highIncome .vc_single_image-wrapper .vc_single_image-img {
+        margin-top: -50px;
+    }
+    .wrapper .inde .vc_single_image-wrapper .vc_single_image-img {
+        margin-top: -35px;
+    }
+    .wrapper .noco .vc_single_image-wrapper .vc_single_image-img {
+        margin-top: -25px;
+    }
+    .wrapper .coin .vc_single_image-wrapper .vc_single_image-img {
+        margin-top: -34px;
+    }
+    .wrapper .flex .vc_single_image-wrapper .vc_single_image-img {
+        margin-top: -31px;
+    }
+    .wrapper .spec .vc_single_image-wrapper .vc_single_image-img {
+        margin-top: -25px;
+    }
+    .wrapper .long .vc_single_image-wrapper .vc_single_image-img {
+        margin-top: -71px;
+    }
+    .title h1 {
+        font-size: 30px;
+        color: white;
+        font-family: 'renault mn';
+        margin-top;
+        -18px !important;
+    }
+    .title h3 {
+        font-size: 18px;
+        color: white;
+        font-family: Arial;
+    }
+    .ind {
+        margin-bottom: -50px;
+    }
+    .we {
+        margin-bottom: -34px;
+    }
+    body .mobile {
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .subtitle {
+        display: block;
+    }
+    .title h1 {
+        font-size: 25px;
+        font-family: 'renault mn';
+    }
+    .title h3 {
+        font-size: 15px;
+        color: white;
+        font-family: Arial;
+    }
+    body .mobile {
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+  .wrapper .eltd_icon_font_awesome {
+              font-size: 34px;
+}      
+.wrapper .institute .vc_single_image-wrapper .vc_single_image-img {
+        margin-top: -70px;
+    }
+    .subtitle {
+        margin-top: 30px;
+        line-height: 2.5;
+    }
+    .title h1 {
+        font-size: 18px;
+        font-family: 'renault mn';
+        letter-spacing: 2px;
+    }
+    .title h3 {
+        font-size: 12px;
+        color: white;
+        font-family: Arial;
+        letter-spacing: 1px;
+    }
+    footer h4 {
+        font-size: 8px;
+    }
+    body .mobile {
+        padding-top: 10px;
+    }
+    body .wrapper h2 {
+        font-size: 25px;
+    }
+    body .wrapper p {
+        font-size: 13px;
+    }
+}
+
+.ajax_loader .rotating_cubes .cube3,
+.ajax_loader .rotating_cubes .cube4 {
+    background-color: #dd3333;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: cubemove 1.8s infinite ease-in-out;
+    animation: cubemove 1.8s infinite ease-in-out;
+}
+
+.ajax_loader .rotating_cubes .cube2 {
+    -webkit-animation-delay: -0.45s;
+    animation-delay: -0.45s;
+}
+
+.ajax_loader .rotating_cubes .cube3 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+}
+
+.ajax_loader .rotating_cubes .cube4 {
+    -webkit-animation-delay: -1.35s;
+    animation-delay: -1.35s;
+}
