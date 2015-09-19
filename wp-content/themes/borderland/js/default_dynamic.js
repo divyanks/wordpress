@@ -14,7 +14,6 @@ var directionNavArrows = 'arrow_carrot-';
 var directionNavArrowsTestimonials = 'fa fa-angle-';
 var add_for_admin_bar = 0;
 	header_height = 180;
-	scroll_amount_for_sticky = 1000;
 
 
 

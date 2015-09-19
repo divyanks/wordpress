@@ -1,0 +1,13 @@
+input[type=text] {
+    width: 70%;
+}
+
+textarea {
+    width: 70%;
+    height: 100px;
+}
+
+span.description {
+    width: 70%;
+    display: inline-block;
+}

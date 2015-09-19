@@ -1,8 +1,16 @@
 
 
-@font-face {
+ @font-face {
     font-family: renault mn;
-    src: url(sansation_light.woff);
+    src: url('/wordpress/wp-includes/fonts/Renault.otf') format('opentype');
+}
+@font-face {
+    font-family: GothamNarrow-Medium;
+    src: url('/wordpress/wp-includes/fonts/GothamNarrow-Medium.otf') format('opentype');
+}
+@font-face {
+    font-family: GothamNarrow-Light;
+    src: url('/wordpress/wp-includes/fonts/GothamNarrow-Light.otf') format('opentype');
 }
 @media only screen and (min-width: 770px){
     #firstName {
@@ -20,6 +28,10 @@
     
      }
 }
+.wrapper p {
+       
+        font-family: GothamNarrow-Light;
+    }
 
 .title h1 {
     color: white;
@@ -28,7 +40,7 @@
 
 .title h3 {
     color: white;
-    font-family: Arial;
+    font-family: GothamNarrow-Light;
 }
 
 .subtitle {
@@ -48,6 +60,7 @@ body .mobile {
 @media only screen and (max-width: 1000px) {
     .wrapper p {
         font-size: 15px;
+        font-family: GothamNarrow-Light;
     }
     body .mobile {
         padding-top: 10px;
@@ -55,7 +68,24 @@ body .mobile {
 }
 
 @media only screen and (max-width: 768px) {
-   .wrapper .eltd_icon_font_awesome {
+   .wrapper .readmoref {
+                width: 189px;
+				left: 176px;
+                position: relative;
+   } 
+   .wrapper .readmores {
+           bottom: 45px;
+          left: 176px;
+          position: relative;
+          width: 189px;
+   } 
+   .wrapper .readmoret {
+              width: 189px;
+			  bottom: 50px;
+              left: 176px;
+             position: relative;
+   }    
+  .wrapper .eltd_icon_font_awesome {
               font-size: 34px;
 }  
   .wrapper .institute .vc_single_image-wrapper .vc_single_image-img {
@@ -92,7 +122,7 @@ body .mobile {
     .title h3 {
         font-size: 18px;
         color: white;
-        font-family: Arial;
+        font-family: GothamNarrow-Light;
     }
     .ind {
         margin-bottom: -50px;
@@ -106,7 +136,24 @@ body .mobile {
 }
 
 @media only screen and (max-width: 600px) {
-    .subtitle {
+   .wrapper .readmoref {
+                width: 189px;
+				left: 99px;
+                position: relative;
+   } 
+   .wrapper .readmores {
+           bottom: 45px;
+          left: 99px;
+          position: relative;
+          width: 189px;
+   } 
+   .wrapper .readmoret {
+              width: 189px;
+			  bottom: 50px;
+              left: 99px;
+             position: relative;
+   }   
+  .subtitle {
         display: block;
     }
     .title h1 {
@@ -116,7 +163,7 @@ body .mobile {
     .title h3 {
         font-size: 15px;
         color: white;
-        font-family: Arial;
+        font-family: GothamNarrow-Light;
     }
     body .mobile {
         padding-top: 10px;
@@ -124,6 +171,23 @@ body .mobile {
 }
 
 @media only screen and (max-width: 480px) {
+  .wrapper .readmoref {
+                width: 189px;
+				left: 50px;
+                position: relative;
+   } 
+   .wrapper .readmores {
+           bottom: 45px;
+          left: 50px;
+          position: relative;
+          width: 189px;
+   } 
+   .wrapper .readmoret {
+              width: 189px;
+			  bottom: 50px;
+              left: 50px;
+             position: relative;
+   } 
   .wrapper .eltd_icon_font_awesome {
               font-size: 34px;
 }      
